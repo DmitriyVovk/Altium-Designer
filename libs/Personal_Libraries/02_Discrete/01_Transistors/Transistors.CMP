@@ -1,0 +1,15 @@
+Component   : TO220 Heatsink_15x10x20
+PCB Library : Transistors.PcbLib
+Date        : 24.01.2026
+Time        : 22:30:41
+
+
+
+Dimension : 15.088 x 10.109 mm
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Multi Layer                 3          0        0       0        0
+ Top Overlay                 0          4        0       0        0
+--------------------------------------------------------------------
+ Total                       3          4        0       0        0
