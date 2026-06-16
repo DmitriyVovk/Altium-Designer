@@ -3,14 +3,21 @@
 # Keep this .gitignore
 !.gitignore
 
-# Unignore the parent directories we need
-!/libs
-!/libs/Personal_Libraries
-!/libs/Personal_Libraries/**
+# Unignore Documents and its contents
 !/Documents
 !/Documents/**
 
-# Explicitly ignore History subfolders inside those directories
+# Allow the libs directory itself so we can selectively re-allow one subtree
+!/libs
+
+# By default ignore everything under libs
+/libs/*
+
+# Re-allow only Personal_Libraries and its contents
+!/libs/Personal_Libraries
+!/libs/Personal_Libraries/**
+
+# Explicitly ignore History subfolders inside the allowed paths
 /libs/Personal_Libraries/History/
 /Documents/History/
 
